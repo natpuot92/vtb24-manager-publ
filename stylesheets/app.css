@@ -641,9 +641,11 @@ a {
   .page-header__title-mobile {
     display: block;
     margin-bottom: 16px;
+    font-family: MetaPro;
     font-size: 30px;
-    color: #3B4256;
-    line-height: 36px; }
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center; }
   .page-header__vacancy-block {
     padding-left: 8px;
     padding-right: 8px; }
@@ -900,7 +902,16 @@ a {
   height: 100px; }
 
 .skills__item-icon-1 {
-  background: url("../images/wait-for-1.jpg") no-repeat center; }
+  background: url("../images/photo-1.jpg") no-repeat center;
+  background-size: contain; }
+
+.skills__item-icon-2 {
+  background: url("../images/photo-2.jpg") no-repeat center;
+  background-size: contain; }
+
+.skills__item-icon-3 {
+  background: url("../images/photo-3.jpg") no-repeat center;
+  background-size: contain; }
 
 .skills__item-text {
   display: -webkit-box;
