@@ -1132,6 +1132,10 @@ a {
 .page-footer__skillaz-br-tel {
   display: none; }
 
+@media (max-width: 900px) {
+  .page-footer__text br {
+    display: none; } }
+
 @media (max-width: 550px) {
   .page-footer__skillaz-br-tel {
     display: block; } }
