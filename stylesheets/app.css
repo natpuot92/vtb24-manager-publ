@@ -902,6 +902,10 @@ a {
   ; }
 
 @media (max-width: 900px) {
+  .skills__items {
+    justify-content: space-between;
+  }
+  
   .skills__item {
     margin: 0; 
     margin-right: 54px;
